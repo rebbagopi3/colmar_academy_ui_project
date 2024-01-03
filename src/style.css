@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+    text-decoration: none;
+    
+    
+}
+
+.backclr{
+    background-color: #D8D8D8;
+    
+}
+/* .landing-page-col-1{
+    padding: 32px 24px 0 24px;
+}*/
+.landing-page-col-2{
+    width: 60%;
+
+}
+/* Extra Small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    /* first section */
+    .landing-page-col-2{
+        width: 100%;       
+    
+    }
+    .one-heading{
+        padding: 32px 16px 32px ;
+    }
+    .one-description{
+        padding-left:16px;
+        padding-bottom: 24px;
+    }
+    .one-btn{
+        padding-bottom:32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* second section  */
+    .mobile-img{
+        padding-top:16px;
+        padding-bottom: 16px;
+    }
+    .mobile-content{
+        padding-left: 32px;
+    }
+
+    #bgclr-mobile{
+        background-color: #D8D8D8;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 576px and up) */
+  @media only screen and (min-width: 576px) {
+    /* Your styles for sm devices here */
+    .landing-page-col-1{
+        padding: 32px 24px;
+        
+    }
+    .landing-page-col-2{
+        width: 50%;       
+    
+    }
+    .secondcolum{
+        padding-top:16px;
+        padding-bottom: 32px;
+    }
+    .second-main-title{
+        padding-left: 24px;
+        padding-bottom: 24px;
+        font-weight: bold;
+    }
+    .second-description{
+        padding-left: 24px;
+        padding-bottom: 24px;
+        padding-right: 48px;
+    }
+    .second-mail{
+        padding-left: 24px;
+        padding-bottom: 32px;
+    }    
+    .second-first-row{        
+        padding: 16px;
+        
+    }
+    .second-first-row{
+        max-width: 35%;
+    }
+    .second-content{
+        max-width: 65%;
+    }
+    .bg-sm-clr{
+        background-color: #D8D8D8;
+    }
+    
+    /* last section */
+    #lg-60{
+        width: 60%;
+    }
+
+
+
+
+  }
